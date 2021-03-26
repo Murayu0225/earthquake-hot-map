@@ -21,5 +21,28 @@
 また、*official-approved*のラベルがついたIssueは、どなたでもPull Requestの提出が可能です。行っていただける場合には、投稿されたIssueにて行うことがわかる内容を記入してください。(他の方との同時進行防止)Pull Requestが進行中である場合には、**[WIP]** やドラフトにしてわかるようにしてください。Issueにて行っていただける内容を記入してから1週間以内にPull Requestの作成が確認できない場合、他の方に行っていただきます。
 yarnやnpmを利用してローカルで利用することも可能ですが、Google Map APIなどのAPIに関しては`secrets.`となっています。ご自身の環境において利用する場合には、.env内に設定することによって利用することが可能です。
 自身で設定したAPIにおいて費用が発生した場合、こちらは、対応できかねます。
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 # ライセンス
 [MIT ライセンス](LICENSE)を利用。
